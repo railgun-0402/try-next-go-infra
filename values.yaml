@@ -1,7 +1,7 @@
 replicaCount: 2
 
 image:
-  repository: {{ .Env.IMAGE_REPOSITORY | default "nginx" }}
+  repository: nginx
   pullPolicy: IfNotPresent
   tag: 2
 
